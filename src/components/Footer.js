@@ -3,7 +3,7 @@ import {StyleSheet, View, Text, Image, TouchableHighlight} from "react-native";
 import {Footer} from 'native-base';
 import {Actions} from 'react-native-router-flux'
 
-import { isHome, isSearch, isLibrary, isPremium} from "../Redux/actions/Footer";
+import { isHome, isSearch, isLibrary, isPremium} from "../redux/actions/Footer";
 import { connect } from "react-redux";
 
 

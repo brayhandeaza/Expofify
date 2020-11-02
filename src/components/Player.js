@@ -4,7 +4,7 @@ import { Actions } from 'react-native-router-flux';
 
 // Redux
 import { connect } from "react-redux"
-import { isPlayer } from '../Redux/actions/Player';
+import { isPlayer } from '../redux/actions/Player';
 
 
 // Image

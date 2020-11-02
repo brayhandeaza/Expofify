@@ -4,7 +4,7 @@ import { PlayerImage } from "../../assets/dry/Image";
 import { Actions } from 'react-native-router-flux';
 
 // Redux
-import { isNotPlayer } from "../Redux/actions/Player";
+import { isNotPlayer } from "../redux/actions/Player";
 
 
 class Player extends Component {

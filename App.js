@@ -14,7 +14,7 @@ import PlayerView from './src/views/Player'
 import { createStore } from 'redux'
 import { connect, Provider } from 'react-redux'
 import ReduxDevTools from 'remote-redux-devtools';
-import reducers from './src/Redux/reducers/index'
+import reducers from './src/redux/reducers/index'
 
 
 const store = createStore(reducers)
